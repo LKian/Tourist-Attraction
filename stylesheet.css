@@ -13,7 +13,6 @@ nav {
     background-color: #2D2D2D;
     text-align: center;  }
 nav ul {
-
     padding: 10px 0; }
 nav ul li { 
     margin: 0 10px; 
@@ -41,11 +40,12 @@ nav ul li a:hover {
     font-size: 4em;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #777; 
-    font-family: courier;}
+    font-family: courier;
+    padding-top: 100px; }
 .banner button {
     position: absolute;
     bottom: 25%;
-    width: 20%;
+    width: 200px;
     margin: 25px 40%;
     font-size: 1em; 
     border-radius: 5px;
@@ -57,7 +57,6 @@ nav ul li a:hover {
     cursor: pointer;  }
 
 
-
 .banner button:hover {
     background-color: #fff;
     color: #33e;
@@ -67,7 +66,6 @@ nav ul li a:hover {
 .section {
     padding: 50px 0; }
 
-
 .site {
     float: left;
     width: 100%;
@@ -75,7 +73,8 @@ nav ul li a:hover {
     min-height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; }
+    position: relative;
+    font-size: 0.8em; }
 
 .site:first-child {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/people.jpg); }
@@ -110,7 +109,7 @@ nav ul li a:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/food.jpg); }
 
  
-.title { 
+.title {
     color: #fff;
     text-transform: uppercase;
     font-size: 3em;
@@ -137,10 +136,6 @@ nav ul li a:hover {
     margin: 10px 0;
     padding: 10px 0; } 
 
-
-
-.news {
-    width: 100%: }
 .icons {
     width: 100%;
     float: left;
@@ -169,12 +164,14 @@ nav ul li a:hover {
     font-size: 2em;
     text-align: center;
     font-family: Cookie; }
+
 form {
     width: 100%;  }
 form h2 {
     width: 100%;
     margin-bottom: 25px;
-    text-align: center; }
+    text-align: center;
+    color: #fff; }
 form input {
     width: 80%;
     margin: 15px 10%;
@@ -216,7 +213,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active {
 .site {
   width: 50%; }
 .title { 
-  font-size: 2em; }
+  font-size: 1.9em; }
   }
 
 
